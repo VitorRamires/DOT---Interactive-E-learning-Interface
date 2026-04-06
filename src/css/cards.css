@@ -1,0 +1,116 @@
+
+.cards {
+  margin: 0 auto 80px 0;
+}
+
+.main-text-card-section {
+  width: 850px;
+  max-width: 95%;
+  margin: 50px auto 0 auto;
+  background-color: #1a1a1a;
+  line-height: 30px;
+  font-size: 1.2rem;
+  color: #ffff;
+  padding: 50px;
+  border-radius: 8px;
+  transition: 0.2s;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.cards-wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: 60px auto 0 auto;
+}
+
+.card {
+  position: relative;
+  text-align: center;
+  border-radius: 8px;
+  padding: 46px;
+  flex: 1 1 300px;
+  max-width: 350px;
+  background-color: #f9fafb;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.card p {
+  line-height: 30px;
+  color: #ffff;
+  font-size: 1rem;
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.interrogation {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  font-size: 3rem;
+  color: #1e293b;
+  opacity: 1;
+  transition: 0.2s;
+}
+
+.card button {
+  width: 120px;
+  max-width: 95%;
+  padding: 12px;
+  display: block;
+  margin: 40px auto 0 auto;
+  border: none;
+  color: #334155;
+  font-size: 1rem;
+  background-color: transparent;
+  border-radius: 8px;
+  transition: 0.2s;
+  cursor: pointer;
+  border: 1px solid #e5e7eb;
+}
+
+.active-card.card {
+  background-color: #0c0a08;
+}
+
+.active-card.card p {
+  opacity: 1;
+}
+
+.active-card.card .interrogation {
+  opacity: 0;
+}
+
+.active-card.card button {
+  border: 1px solid #4b5563;
+  color: #ffffff;
+}
+
+
+@media screen and (max-width: 490px) {
+  .main-text-card-section {
+    line-height: 25px;
+    font-size: 0.9rem;
+  }
+
+  @media screen and (max-width: 400px) {
+    .card p {
+      font-size: 1rem;
+    }
+  }
+}
+
+@media screen and (max-width: 634px) {
+  .activity-title-wrapper {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .activity-title p {
+    font-size: 1rem;
+  }
+}

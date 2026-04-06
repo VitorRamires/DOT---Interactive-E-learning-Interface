@@ -1,0 +1,22 @@
+
+.info {
+  display: grid;
+  grid-template-columns: 0.65fr 0.5fr;
+  gap: 40px;
+  width: 1250px;
+  max-width: 100%;
+  margin: 70px auto;
+  align-items: center;
+  justify-items: center;
+  background-color: #ffffff;
+  padding: 50px;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.info p {
+  line-height: 30px;
+  margin: 20px 0;
+  color: #5c6b48;
+  font-size: 1.1rem;
+}

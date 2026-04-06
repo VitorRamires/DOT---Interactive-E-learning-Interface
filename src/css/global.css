@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  left: 0;
+  box-sizing: border-box;
+  font-family: "inter";
+}
+
+:root {
+  --plyr-color-main: #76b900;
+}
+
+@font-face {
+  font-family: "inter";
+  src: url("../src/assets/fonts/Inter-VariableFont_opsz\,wght.ttf");
+}
+
+body {
+  background-color: #f7f8f5;
+}
+
+img {
+  width: 100%;
+}
+
+.center {
+  width: 1024px;
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.title-subtitle h2 {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 60px;
+}
+
+.title-subtitle p {
+  color: #5c6b48;
+  font-size: 1.2rem;
+  margin: 20px 0 0 0;
+}
+
+.activity-title-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: start;
+  gap: 35px;
+}
+
+.activity-title-icon {
+  margin-top: 10px;
+  min-width: 20px;
+}
+
+.activity-title h3 {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+}
+
+.activity-title p {
+  font-size: 1.2rem;
+  color: #5c6b48;
+}
+
+.close-message {
+  text-align: end;
+  margin-right: 15px;
+}
+
